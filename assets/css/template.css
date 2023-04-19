@@ -165,7 +165,11 @@ form{
                   /*4K 1440PX*/ 
               
                     
-                  
+@media(max-width:1920px){
+    .copyright{
+        margin-top:580px;
+    }  
+}              
 
 
 @media(max-width:1440px){
