@@ -79,9 +79,9 @@ form{
 #eye{
     position:absolute;
     color:brown;
-    font-size:15px;
-    margin-top:9px;
-    margin-left: -25px;
+    font-size:18px;
+    margin-top:7px;
+    margin-left: -30px;
 }
 
 .check{
@@ -134,7 +134,7 @@ form{
     font-weight: bold;
     text-decoration: none;
     color:brown;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .copyright{
@@ -142,7 +142,7 @@ form{
     position:absolute;
     font-size:16px;
     color:brown;
-    margin-top:580px;
+    margin-top:auto;
 }
 
 .copyright a{
@@ -162,27 +162,61 @@ form{
 
                                  /*RESPONSIVIDADE*/
 
-                  /*4K 1440PX*/ 
-              
-                    
+                                /*2560px*/
+ @media(max-width:2560px) {
+    .copyright{
+        margin-top:600px;
+        font-size:20px;
+
+    }  
+
+
+ }                               
+
+
+
+                                 /*1920PX*/ 
 @media(max-width:1920px){
     .copyright{
-        margin-top:580px;
+        margin-top:570px;
     }  
-}              
+} 
 
+
+                                /*1440PX*/ 
 
 @media(max-width:1440px){
+
+    .formulario{
+        margin-left:350px;
+
+    }
     .copyright{
-        margin-top:550px;
+        margin-top:610px;
+        margin-left:-200px;
+        font-size:20px;
     }
 }
 
+
+
+                                /*1024PX*/ 
+
 @media(max-width:1024px){
+
+    .formulario{
+        margin-top:120px;
+        margin-right:-150px;
+    }
     .copyright{
-        margin-top:495px;
+        margin-top:525px;
     }
 }
+
+
+
+
+                                /*768PX*/ 
 
 
 @media(max-width:768px){
@@ -192,84 +226,66 @@ form{
     }
 
    .formulario{
-    width:600px;
-    height:450px;
-    margin-left:-5px;
+    margin-left:-140px;
+    width:350px;
+    height:500px;
+   }
+
+   .check{
+    margin-left:110px;
+   }
+
+   .button{
+    margin-top:50px;
    }
 
    .forgot{
-    margin-top:80px;
+    margin-top:240px;
    
 }
 
 .copyright{
-    margin-top:520px;
+    margin-top:590px;
+    margin-left:0px;
 }
 
 
 }
 
-@media(max-width:426px){
 
-    #container{
-        margin-left:5px;
-    }
 
-    .formulario{
-        width:380px;
-        height:350px;
 
-    }
+                                /*425PX*/ 
 
-    .check{
-        margin-top:25px;
-        margin-left:115px;
-    }
+@media(min-width:425px){
 
     .button{
-        margin-left:145px;
-    }
-
-    .copyright{
-        margin-top:470px;
-    }
-  
-
-}
-
-@media(max-width:376px){
-
-   
-
-    .formulario{
-        max-width:350px;
-        height:350px;
-
-    }
-
-    .check{
-        margin-top:30px;
-        margin-left:115px;
-    }
-
-    .button{
+        margin-top:10px;
         margin-left:135px;
     }
 
-    .forgot{
-        margin-left:8px;
-    }
-
-
-  
-
-}
-
-@media(max-width:321px){
+    
 
    
+  }
 
-    .formulario{
+
+
+
+                                /*375PX*/ 
+
+@media(max-width:375px){
+    .copyright{
+        margin-top:540px;
+    }
+}
+
+
+
+                                /*320PX*/
+@media(max-width:320px){
+
+.formulario{
         max-width:300px;
         height:360px;
 
@@ -284,17 +300,24 @@ form{
     }
 
     .button{
+        margin-top:10px;
         margin-left:105px;
     }
 
+
     .forgot{
-        margin-left:-25px;
-
-
+        margin-top:170px;
+        margin-left:-40px;
     }
 
-  
+
+    .copyright{
+        margin-top:520px;
+    }
+
 }
+
+
     
 
   
